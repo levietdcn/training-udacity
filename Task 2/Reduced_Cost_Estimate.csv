@@ -1,0 +1,21 @@
+﻿Estimate summary,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,
+0,5048.107702,60577.29,USD,,,,,
+,,* Includes upfront cost,,,,,,
+,,,,,,,,
+,,,,,,,,
+Detailed Estimate,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,358.487702,4301.85,USD,"Operating system (Linux), Storage amount (30 GB), DT Inbound: All other regions (850 GB per month), DT Outbound: Internet (600 GB per month), DT Intra-Region: (600 GB per month), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 1, Peak: 2, Duration of peak: 21 Hr 30 Min)), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Advance EC2 instance (c4.xlarge), Pricing strategy (On-Demand)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,678.1,8137.2,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB per month), Nodes (1), Instance Type (db.m4.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Total Size of Backup Processed for Export (GB) (900 per month), Additional backup storage (900 GB)"
+My Estimate,US East (N. Virginia),CloudFront,Amazon CloudFront,0,394.92,4739.04,USD,"Data transfer out to internet (900 GB per month), Data transfer out to origin (900 GB per month), Number of requests (HTTPS) (10000000 per month), Data transfer out to internet (500 GB per month), Data transfer out to origin (500 GB per month), Number of requests (HTTPS) (2500000 per month), Data transfer out to internet (500 GB per month), Data transfer out to origin (500 GB per month), Number of requests (HTTPS) (2499999 per month), Data transfer out to internet (499 GB per month), Data transfer out to internet (500 GB per month), Data transfer out to origin (500 GB per month), Number of requests (HTTPS) (24999 per month)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,2610,31320,USD,Hosted Zones (9000)
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,126.29,1515.48,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,S3 Standard,0,412.21,4946.52,USD,S3 Standard storage (5 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,460.8,5529.6,USD,"DT Inbound: All other regions (5 TB per month), DT Outbound: Internet (5 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,7.3,87.6,USD,"Number of EC2 instances (2), Number of EIPs per instance (2)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
